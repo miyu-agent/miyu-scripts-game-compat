@@ -1,0 +1,6 @@
+[package]
+version = "0.1.0"
+name = { en = "Game Linux compatibility", zh = "游戏 Linux 兼容性" }
+summary = { en = "How a game runs on Linux: ProtonDB, anti-cheat status, caniplayonlinux", zh = "查游戏在 Linux 上能不能玩：ProtonDB、反作弊状态、caniplayonlinux" }
+author = "SHORiN-KiWATA"
+icon = "gamepad-2"
