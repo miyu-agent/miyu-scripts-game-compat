@@ -17,5 +17,5 @@ Miyu 脚本包，带一件工具 `game_compat`：查一款游戏在 Linux 上能
 - 先认游戏再查：App ID 经 Steam 查名字；英文名经 ProtonDB 的搜索索引；中文名先找 Steam 中文商店名完全对得上的，再看搜索索引给的，英文结果要和那款游戏的中文商店名对得上才算。对不上的不硬查，交回搜到了什么、让换英文原名，不会把另一款游戏的数据当成这款。
 - 不在 Steam 上的游戏（无畏契约、英雄联盟这类）没有 ProtonDB，但反作弊和 caniplayonlinux 照名字还能查到，用英文名查。
 - 某个来源没收录写「没收录」，出错写「出错」，两样不混：没收录不等于没有反作弊。
-- AreWeAntiCheatYet 的总表和 caniplayonlinux 的站点地图缓存一天，放在 `MIYU_SCRIPT_CACHE_DIR`。
+- AreWeAntiCheatYet 的总表和 caniplayonlinux 的站点地图缓存一天，放在 `MIYU_CACHE_DIR`。
 - 只用 Python 标准库。

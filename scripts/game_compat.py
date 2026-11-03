@@ -105,8 +105,8 @@ def fetch_json(url, **kw):
 
 
 def cached(name, url):
-    """Fetch through a 24-hour file cache in MIYU_SCRIPT_CACHE_DIR; a cache that cannot be written is skipped."""
-    base = os.environ.get("MIYU_SCRIPT_CACHE_DIR")
+    """Fetch through a 24-hour file cache in MIYU_CACHE_DIR; a cache that cannot be written is skipped."""
+    base = os.environ.get("MIYU_CACHE_DIR")
     path = os.path.join(base, name) if base else None
     if path:
         try:
